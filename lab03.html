@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <style>
@@ -17,7 +18,7 @@
         /* Set gray background color and 100% height */
         
         .sidenav {
-            background-color: #f1f1f1;
+            background-color: lightblue;
             height: 100%;
         }
         /* Set black background color, white text and some padding */
@@ -73,7 +74,7 @@
                 <br>
                 <img src="img/grid1.jpg"><br><br>
                 <p>ซึ่งหน่วยที่เป็น 12 นี้ เราสามารถเฉลี่ยแต่ละส่วนได้ตามความต้องการ อย่างเช่น</p>
-                <img src="img/grid2.jpg">
+                <img src="img/grid2.jpg"><br>
 
                 <h4><small>RECENT POSTS</small></h4>
                 <hr>
@@ -88,7 +89,7 @@
                     <li>รูปแบบอินไลน์ (บรรทัดเดียวกัน)</li>
                 </ul>
                 <br>
-                <p><b>ตัวอย่าง</b></p>
+                <p><b>ตัวอย่างแบบแนวนอน</b></p>
                 <form class="form-horizontal" role="form">
                     <div class="form-group">
                         <label class="control-label col-sm-2" for="email">Email:</label>
@@ -114,7 +115,41 @@
                             <button type="submit" class="btn btn-default">Submit</button>
                         </div>
                     </div>
+                </form><br>
+
+                <p><b>ตัวอย่างแบบแนวตั้ง</b></p>
+                <form>
+                    <div class="form-group">
+                        <label for="email">Email address:</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Password:</label>
+                        <input type="password" class="form-control" id="pwd">
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox"> Remember me</label>
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
                 </form>
+                <br><br>
+
+                <p><b>ตัวอย่างแบบบรรทัดเดียวกัน</b></p>
+                <form class="form-inline">
+                    <div class="form-group">
+                        <label for="email">Email address:</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">Password:</label>
+                        <input type="password" class="form-control" id="pwd">
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox"> Remember me</label>
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+                <br>
                 <hr>
 
                 <h4>Leave a Comment:</h4>
@@ -162,7 +197,7 @@
     </div>
 
     <footer class="container-fluid">
-        <p>Footer Text</p>
+        <p><a target="_blank" title="find us on Facebook" href="http://www.facebook.com/ChayanSuratruangchai"><i class="fa fa-facebook-square" style="font-size:48px;color:#000066"></i></a></p>
     </footer>
 </body>
 
